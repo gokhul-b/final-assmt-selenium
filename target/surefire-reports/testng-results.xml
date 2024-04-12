@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-12T19:30:20 IST" name="Surefire suite" finished-at="2024-04-12T19:30:26 IST" duration-ms="5802">
+  <suite started-at="2024-04-12T19:36:57 IST" name="Surefire suite" finished-at="2024-04-12T19:37:11 IST" duration-ms="13988">
     <groups>
     </groups>
-    <test started-at="2024-04-12T19:30:20 IST" name="Surefire test" finished-at="2024-04-12T19:30:26 IST" duration-ms="5802">
+    <test started-at="2024-04-12T19:36:57 IST" name="Surefire test" finished-at="2024-04-12T19:37:11 IST" duration-ms="13988">
       <class name="final_assmnt_mvn.mvn_project_final.SeleniumTestSample">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:final_assmnt_mvn.mvn_project_final.SeleniumTestSample@5552768b]" started-at="2024-04-12T19:30:20 IST" name="setUp" finished-at="2024-04-12T19:30:22 IST" duration-ms="2000" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:final_assmnt_mvn.mvn_project_final.SeleniumTestSample@52102734]" started-at="2024-04-12T19:36:57 IST" name="setUp" finished-at="2024-04-12T19:37:07 IST" duration-ms="10228" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="googleSearchTest()[pri:0, instance:final_assmnt_mvn.mvn_project_final.SeleniumTestSample@5552768b]" started-at="2024-04-12T19:30:22 IST" name="googleSearchTest" finished-at="2024-04-12T19:30:26 IST" duration-ms="3577" status="PASS">
+        <test-method signature="googleSearchTest()[pri:0, instance:final_assmnt_mvn.mvn_project_final.SeleniumTestSample@52102734]" started-at="2024-04-12T19:37:07 IST" name="googleSearchTest" finished-at="2024-04-12T19:37:11 IST" duration-ms="3608" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googleSearchTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:final_assmnt_mvn.mvn_project_final.SeleniumTestSample@5552768b]" started-at="2024-04-12T19:30:26 IST" name="tearDown" finished-at="2024-04-12T19:30:26 IST" duration-ms="178" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:final_assmnt_mvn.mvn_project_final.SeleniumTestSample@52102734]" started-at="2024-04-12T19:37:11 IST" name="tearDown" finished-at="2024-04-12T19:37:11 IST" duration-ms="107" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -1,6 +1,6 @@
 package final_assmnt_mvn.mvn_project_final;
 
-
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -14,7 +14,7 @@ public class SeleniumTestSample {
 	private WebDriver driver;
     @BeforeMethod
     public void setUp() {
-    	System.setProperty("webdriver.chrome.driver","D:\\Webdriver\\chromedriver_win64\\chromedriver.exe");
+    	WebDriverManager.chromedriver().setup();
     	driver = new ChromeDriver();
     }
     @Test
